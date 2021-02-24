@@ -24,58 +24,64 @@ _______________________________________
   * Differences in pricing between hosts who have varying amounts of listings
 
 -------------------------------------------
-![minimumcost](./images/plots/mincostdist.png)
+
+![dist of prices](./images/plots/distributionofrentalprices.png)
+
+-------------------------------------------
+![minimum cost](./images/plots/mincostdist.png)
 
 -------------------------------------------
 
-![minimumcost](./images/plots/boroughlistingcnt.png)
+![borough listing counts](./images/plots/boroughlistingcnt.png)
 
 --------------------------------------------
 
-![minimumcost](./images/plots/mapnogeopand.png)
+![map without geopandas](./images/plots/mapnogeopand.png)
 
 -------------------------------------------
 
-![minimumcost](./images/plots/mapgeopand.png)
+![map with geopandas](./images/plots/mapgeopand.png)
 
 ------------------------------------------
 
-![minimumcost](./images/plots/scattermatrix.png)
+![scatter matrix](./images/plots/scattermatrix.png)
 
 ------------------------------------------
 
-![minimumcost](./images/plots/corrheatmap.png)
+![corr heatmap](./images/plots/corrheatmap.png)
 
 -----------------------------------------
 
-![minimumcost](./images/plots/bxneighborhoodprices.png)
+![bronx neighborhood prices](./images/plots/bxneighborhoodprices.png)
 
 ------------------------------------------
 
-![minimumcost](./images/plots/violinwithoutliers.png)
+![violin with outliers](./images/plots/violinwithoutliers.png)
 
 ------------------------------------------
 
-![minimumcost](./images/plots/violinnooutliersnostaten.png)
+![violin no outliers](./images/plots/violinnooutliersnostaten.png)
+
+![distnooutliers](./images/plots/pricedistributionwithoutoutliers.png)
 
 ------------------------------------------
-![minimumcost](./images/plots/violinnooutliersbronx.png)
+![bronx violin](./images/plots/violinnooutliersbronx.png)
 
 ------------------------------------------
 
-![minimumcost](./images/plots/bkviolin.png)
+![BK violin](./images/plots/bkviolin.png)
 
 -------------------------------------------
 
-![minimumcost](./images/plots/manhattanviolin.png)
+![manhattan violin](./images/plots/manhattanviolin.png)
 
 -------------------------------------------
 
-![minimumcost](./images/plots/qnsviolin.png)
+![QNS violin](./images/plots/qnsviolin.png)
 
 -------------------------------------------
 
-![minimumcost](./images/plots/statenviolin.png)
+![staten violin](./images/plots/statenviolin.png)
 
 -------------------------------------------
 
