@@ -88,7 +88,8 @@ _______________________________________
 The P-value is much smaller than our threshold of 0.05, so I can reject the null hypothesis
 
 ------------------------------------------
-### Null-Hypothesis2: Brooklyn rental prices = Manhattan rental prices ### Alt-Hypothesis2: Brooklyn rental prices != Manhattan rental prices
+### Null-Hypothesis2: Brooklyn rental prices = Manhattan rental prices 
+### Alt-Hypothesis2: Brooklyn rental prices != Manhattan rental prices
 * The statistic is: -54.277389156640076
 * The P-value is: 0.0
 
