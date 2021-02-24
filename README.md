@@ -1,9 +1,7 @@
 # CAPSTONE-1-EDA
 Dataset case study including EDA, hypothesis testing, and visualizations
 _______________________________________
-# PROPOSALS
-## Dataset 1:
-### [Airbnb Listings and Metrics in NYC (2019)](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data)
+# [Airbnb Listings and Metrics in NYC (2019)](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data)
 * This dataset contains information regarding Airbnb rentals in NYC for 2019. I am interested in investigating the following:
 
   * Hosts across neighborhood/neighborhood group
