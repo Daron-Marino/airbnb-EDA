@@ -59,6 +59,9 @@ _______________________________________
 ![minimumcost](./images/plots/violinnooutliersnostaten.png)
 
 ------------------------------------------
+![minimumcost](./images/plots/violinnooutliersbronx.png)
+
+------------------------------------------
 
 ![minimumcost](./images/plots/bkviolin.png)
 
@@ -82,6 +85,9 @@ _______________________________________
 ------------------------------------------
 ### Null-Hypothesis1: Bronx rental prices = Brooklyn rental prices
 ### Alt-Hypothesis1: Bronx rental prices != Brooklyn rental prices
+
+![bkvsbronx](./images/plots/brooklynvbronx.png)
+
 * The statistic is: -22.928618135457267
 * The P-value is: 3.372692554424379e-92
 
@@ -90,6 +96,9 @@ The P-value is much smaller than our threshold of 0.05, so I can reject the null
 ------------------------------------------
 ### Null-Hypothesis2: Brooklyn rental prices = Manhattan rental prices 
 ### Alt-Hypothesis2: Brooklyn rental prices != Manhattan rental prices
+
+![bkvsmanhattan](./images/plots/manhattanvbrooklyn.png)
+
 * The statistic is: -54.277389156640076
 * The P-value is: 0.0
 
@@ -101,11 +110,16 @@ The P-value is much smaller than our threshold of 0.05, so I can reject the null
 * The statistic is: 24.63607892282018
 * The P-value is: 2.532811850514098e-129
 
+![bkvsqns](./images/plots/queensvbrooklyn.png)
+
 The P-value is much smaller than our threshold of 0.05, so I can reject the null hypothesis
 
 ------------------------------------------
 ### Null-Hypothesis4: Brooklyn rental prices = Staten Island rental prices
 ### Alt-Hypothesis4: Brooklyn rental prices != Staten Island rental prices
+
+![bkvsstaten](./images/plots/statenvbrooklyn.png)
+
 * The statistic is: 7.665457848815302
 * The P-value is: 3.7007331126954127e-13
 
@@ -114,6 +128,9 @@ The P-value is much smaller than our threshold of 0.05, so I can reject the null
 -------------------------------------------
 ### Null-Hypothesis5: Staten Island rental prices = Bronx rental prices
 ### Alt-Hypothesis5: Staten Island rental prices != Bronx rental prices
+
+![bronxvsstaten](./images/plots/statenvbronx.png)
+
 * The statistic is: 3.951188209546539
 * The P-value is: 9.360702967221851e-05
 
@@ -122,28 +139,31 @@ The P-value is much smaller than our threshold of 0.05, so I can reject the null
 -------------------------------------------
 ### Null-Hypothesis6: Staten Island rental prices = Manhattan rental prices
 ### Alt-Hypothesis6: Staten Island rental prices != Manhattan Island rental prices
+
+![statenvmanhattan](./images/plots/statenvmanhattan.png)
+
 * The statistic is: -25.47038174024267
 * The P-value is: 2.125131575170887e-74
--------------------------------------------
-### Null-Hypothesis7: Staten Island rental prices = Queens rental prices
-### Alt-Hypothesis7: Staten Island rental prices != Queens rental prices
-* The statistic is: 0.1879669104597021
-* The P-value is: 0.8510440821111774
 
-**We actually fail to reject the null
-hyothesis here because the P-value doesn't meet the threshold of 0.05**
+We can reject the null hypothesis
 
 -------------------------------------------
-### Null-Hypothesis8: Queens rental prices = Bronx rental prices
-### Alt-Hypothesis8: Queens rental prices != Bronx rental prices
+### Null-Hypothesis7: Queens rental prices = Bronx rental prices
+### Alt-Hypothesis87: Queens rental prices != Bronx rental prices
+
+![bronxvqns](./images/plots/queensvbronx.png)
+
 * The statistic is: 7.554233389613039
 * The P-value is: 8.961968526929802e-14
 
 The P-value is much smaller than our threshold of 0.05, so I can reject the null hypothesis
 
 -------------------------------------------
-### Null-Hypothesis9: Queens rental prices = Manhattan rental prices
-### Alt-Hypothesis9: Queens rental prices != Manhattan Island rental prices
+### Null-Hypothesis8: Queens rental prices = Manhattan rental prices
+### Alt-Hypothesis8: Queens rental prices != Manhattan Island rental prices
+
+![qnsvmanhattan](./images/plots/queensvsmanhattan.png)
+
 * The statistic is: -69.9890080361625
 * The P-value is: 0.0
 
@@ -151,8 +171,11 @@ The P-value is much smaller than our threshold of 0.05, so I can reject the null
 
 -------------------------------------------
 
-### Null-Hypothesis10: Bronx rental prices = Manhattan rental prices
-### Alt-Hypothesis10: Bronx rental prices != Manhattan Island rental prices
+### Null-Hypothesis9: Bronx rental prices = Manhattan rental prices
+### Alt-Hypothesis9: Bronx rental prices != Manhattan Island rental prices
+
+![bronxvmanhattan](./images/plots/bronxvmanhattan.png)
+
 * The statistic is: -54.26185019782024
 * The P-value is: 2.57e-322
 
@@ -160,6 +183,16 @@ The P-value is much smaller than our threshold of 0.05, so I can reject the null
 
 ------------------------------------------
 
+### Null-Hypothesis10: Staten Island rental prices = Queens rental prices
+### Alt-Hypothesis10: Staten Island rental prices != Queens rental prices
+
+![statenvqns](./images/plots/statenvqueens.png)
+
+* The statistic is: 0.1879669104597021
+* The P-value is: 0.8510440821111774
+
+**We actually fail to reject the null
+hyothesis here because the P-value doesn't meet the threshold of 0.05**
 
 
 
