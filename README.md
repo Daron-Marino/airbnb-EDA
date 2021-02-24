@@ -129,8 +129,8 @@ The P-value is much smaller than our threshold of 0.05, so I can reject the null
 * The statistic is: 0.1879669104597021
 * The P-value is: 0.8510440821111774
 
-<mark>We actually fail to reject the null
-hyothesis here because the P-value doesn't meet the threshold of 0.05</mark>
+**We actually fail to reject the null
+hyothesis here because the P-value doesn't meet the threshold of 0.05**
 
 -------------------------------------------
 ### Null-Hypothesis8: Queens rental prices = Bronx rental prices
