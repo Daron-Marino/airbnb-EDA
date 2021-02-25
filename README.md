@@ -200,7 +200,11 @@ The P-value is much smaller than our threshold of 0.05, so I can reject the null
 **We actually fail to reject the null
 hyothesis here because the P-value doesn't meet the threshold of 0.05**
 
+------------------------------------------
 
+## Bayes Testing on "Has Review"
+
+![bkvbx](./images/plots/bayesbronxvbrooklyn.png)
 
 
 
