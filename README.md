@@ -98,14 +98,6 @@ It seems that when the host listings count increases, there's slight increase in
 
 Similarly, when the host listings count increases, there's a slight increase in availability throughout the year.
 
------------------------------------------
-
-Let's take a look at pricing distribution across five arbitrary neighborhoods across each borough.
-
-### Bronx:
-
-![bronx neighborhood prices](./images/plots/bxneighborhoodprices.png)
-
 ------------------------------------------
 ## Pricing Differences
 
@@ -125,36 +117,9 @@ Let's see what the distribution of prices looks like without outliers...
 
 ![violin no outliers](./images/plots/violinnooutliersnostaten.png)
 
-![distnooutliers](./images/plots/pricedistributionwithoutoutliers.png)
-
 MUCH BETTER
 
 Below we can see the distribution of rental prices across each borough.
-
-------------------------------------------
-### Bronx
-
-![bronx violin](./images/plots/violinnooutliersbronx.png)
-
-------------------------------------------
-### Brooklyn
-
-![BK violin](./images/plots/bkviolin.png)
-
--------------------------------------------
-### Manhattan
-
-![manhattan violin](./images/plots/manhattanviolin.png)
-
--------------------------------------------
-# Queens
-
-![QNS violin](./images/plots/qnsviolin.png)
-
--------------------------------------------
-# Staten Island
-
-![staten violin](./images/plots/statenviolin.png)
 
 -------------------------------------------
 # Hypothesis Testing:
