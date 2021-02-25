@@ -161,7 +161,15 @@ The 10 following hypothesis tests were conducted:
 
 ![statenvqns](./images/plots/allboroughhypothesistesting.png)
 
-![statenvqns](./images/plots/statenvqns.png)
+
+### We can reject the Null Hypothesis in 9/10 of the tests because the P-value fell far below our alpha of 0.05
+
+------------------------------------------
+
+**We actually fail to reject the null
+hyothesis when comparing Staten Island and Queens mean rental prices because the P-value doesn't meet the threshold of 0.05**
+
+![statenvqns](./images/plots/statenvsqnsupdated.png)
 
 * The statistic is: 0.1879669104597021
 * The P-value is: 0.8510440821111774
