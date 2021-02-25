@@ -152,42 +152,12 @@ The 10 following hypothesis tests were conducted:
 | The mean rental price in Brooklyn is not significantly different than the mean rental price in Manhattan  	| The mean rental price in Brooklyn is significantly different than the mean rental price in Manhattan   	|
 | The mean rental price in Brooklyn is not significantly different than the mean rental price in Queens  	| The mean rental price in Brooklyn is significantly different than the mean rental price in Queens  	|
 | The mean rental price in Brooklyn is not significantly different than the mean rental price in Staten Island  	| The mean rental price in Brooklyn is significantly different than the mean rental price in Staten Island  	|
-|   	|   	|
-|   	|   	|
-|   	|   	|
-|   	|   	|
-|   	|   	|
-
-
-### Null-Hypothesis1: Bronx rental prices = Brooklyn rental prices
-### Alt-Hypothesis1: Bronx rental prices != Brooklyn rental prices
-
-### Null-Hypothesis2: Brooklyn rental prices = Manhattan rental prices 
-### Alt-Hypothesis2: Brooklyn rental prices != Manhattan rental prices
-
-### Null-Hypothesis3: Brooklyn rental prices = Queens rental prices
-### Alt-Hypothesis3: Brooklyn rental prices != Queens rental prices
-
-### Null-Hypothesis4: Brooklyn rental prices = Staten Island rental prices
-### Alt-Hypothesis4: Brooklyn rental prices != Staten Island rental prices
-
-### Null-Hypothesis5: Staten Island rental prices = Bronx rental prices
-### Alt-Hypothesis5: Staten Island rental prices != Bronx rental prices
-
-### Null-Hypothesis6: Staten Island rental prices = Manhattan rental prices
-### Alt-Hypothesis6: Staten Island rental prices != Manhattan Island rental prices
-
-### Null-Hypothesis7: Queens rental prices = Bronx rental prices
-### Alt-Hypothesis7: Queens rental prices != Bronx rental prices
-
-### Null-Hypothesis8: Queens rental prices = Manhattan rental prices
-### Alt-Hypothesis8: Queens rental prices != Manhattan Island rental prices
-
-### Null-Hypothesis9: Bronx rental prices = Manhattan rental prices
-### Alt-Hypothesis9: Bronx rental prices != Manhattan Island rental prices
-
-### Null-Hypothesis10: Staten Island rental prices = Queens rental prices
-### Alt-Hypothesis10: Staten Island rental prices != Queens rental prices
+| The mean rental price in Staten Island is not significantly different than the mean rental price in The Bronx  	| The mean rental price in Staten Island is significantly different than the mean rental price in The Bronx   	|
+| The mean rental price in Staten Island is not significantly different than the mean rental price in Manhattan  	| The mean rental price in Staten Island is significantly different than the mean rental price in Manhattan   	|
+| The mean rental price in Queens is not significantly different than the mean rental price in The Bronx   	| The mean rental price in Queens is significantly different than the mean rental price in The Bronx   	|
+| The mean rental price in Queens is not significantly different than the mean rental price in Manhattan  	| The mean rental price in Queens is significantly different than the mean rental price in Manhattan  	|
+| The mean rental price in the Bronx is not significantly different than the mean rental price in Manhattan   	| The mean rental price in the Bronx is significantly different than the mean rental price in Manhattan  	|
+| The mean rental price in Staten Island is not significantly different than the mean rental price in Queens  	| The mean rental price in Staten Island is significantly different than the mean rental price in Queens  	|
 
 ![statenvqns](./images/plots/allboroughhypothesistesting.png)
 
