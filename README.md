@@ -249,7 +249,7 @@ I then performed Bayesian Hypothesis testing using 100,000 simulations using the
 
 Let's see what the difference in `has_review` looks like when plotting the PDFs of each borough's Beta Distribution:
 
-![bkvbx](./images/plots/hasreviewupdated.png)
+![bkvbx](./images/plots/hasreviewmostrecent.png)
 
 
 
