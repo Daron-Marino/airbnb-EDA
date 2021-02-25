@@ -61,7 +61,7 @@ As we can see, the plotting doesn't seem to be very accurate, as evidenced by th
 
 ## With GeoPandas
 
-![map with geopandas](./images/plots/mapgeopand.png)
+![map with geopandas](./images/plots/updatedgeopandas.png)
 
 We can see plotting the longitude and latitude coodinates with GeoPandas and a map taken from NYC OpenData is way more accurate. 
 
