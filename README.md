@@ -9,17 +9,14 @@ _______________________________________
 
 * This dataset contains information regarding Airbnb rentals in NYC for 2019. I am interested in investigating the following:
 
-  * Hosts across neighborhood/neighborhood group
-  * Room type across neighborhood/neighborhood group
-  * Price across neighborhood/borough
+  * Price
+    * Differences in pricing
   * Availability
-  * Number of reviews
+  * Reviews
 
 * ### Visualizations to Consider:
-  * Distributions of prices across neighbohood/borough
-  * Distributions of minimum nights across neighborhood/borough
+  * Distributions of prices across neighborhood/borough
   * Distribution of reviews across neighborhood/borough
-  * Amount of listings per host across neighborhood/borough
   * Correlation between amount of listings per host and availability
   * Map plot that shows concentration of listings throughout the city based on latitude/longitude coordinates
 
@@ -29,6 +26,10 @@ _______________________________________
   * The probability that a particular borough will have more instances of `has review` when compared to another
 
 -------------------------------------------
+## What is a borough?
+
+* According to [The official NYC Guide](https://www.nycgo.com/neighborhoods-boroughs/about-nyc-five-boroughs/), a borough is "...like a smaller city within our massive metropolis. NYC has five of them - The Bronx, Brooklyn, Manhattan, Queens, and Staten Island." 
+
 
 Let's take a look at the distribution of prices across all boroughs.
 
@@ -112,7 +113,7 @@ Remember earlier when there appeared to be outliers positively skewing the distr
 
 ![violin with outliers](./images/plots/violinoutliersupdated.png)
 
-As we an see from this violin plot, there are deffinitely pricing outliers.
+As we can see from this violin plot, there are definitely pricing outliers.
 
 I decided to remove the outliers by calculating the interquartile range (IQR),Q3-Q1, and removing any value that is less than Q1 - 1.5*IQR and greater than Q3 + 1.5*IQR
 
@@ -131,28 +132,22 @@ Below we can see the distribution of rental prices across each borough.
 
 I decided to take a closer look at the differences in mean price across each borough. 
 
-Before we go any further, it may be helpful to define a borough:
-* According to [The official NYC Guide](https://www.nycgo.com/neighborhoods-boroughs/about-nyc-five-boroughs/), a borough is "...like a smaller city within our massive metropolic. NYC has five of them - The Bronx, Brooklyn, Manhattan, Queens, and Staten Island." 
-
-### Back to our normally schedule programming...
-
 Earlier, it didn't look like the prices were normally distributed, but let's confirm that mathematically by testing for normality:
 
-H0: Price values are not normally distributed
-H1: Price values are normally distributed
+H0: Price values are normally distributed
+H1: Price values are not normally distributed
 
-- I'm establishin an alpha of 0.05, if the p-value is above the alpha, we can reject the null hypothesis. If below, we must fail to reject the null hypothesis. 
+- I'm establishing an alpha of 0.05, if the p-value is above the alpha, we fail to reject the null hypothesis. If below, we reject the null hypothesis. 
 
 ```python
 stat, p = stats.normaltest(airbnb_nooutliers['price'])
 ```
 
-The statistic is 2845.656175505129
 The P-value is 0.0
 
-This means that we fail to reject the null hypothesis and the normality test has determined the price values are NOT normally distributed.
+This means that we reject the null hypothesis and the normality test has determined the price values are NOT normally distributed.
 
-Because of the Central Limit Theorem, we can still do hypothesis testing under the assumption that the sample means are normally distributed. Similarly, we can still perfrom t-tests on the mean borough prices because the t-test assumes the means of samples are normally distributed, and it does not asume that the population is normally distributed. Additionally, we are dealing with some rather large sample sizes, so treating the sample means as normally distributed is not an issue.
+Because of the Central Limit Theorem, we can still do hypothesis testing under the assumption that the sample means are normally distributed. Similarly, we can still perform t-tests on the mean borough prices because the t-test assumes the means of samples are normally distributed, and it does not assume that the population is normally distributed. Additionally, we are dealing with some rather large sample sizes, so treating the sample means as normally distributed is not an issue.
 
 * I ran a t-test on mean prices for each borough vs. every other borough to see what's significant and what isn't with an alpha of 0.05 across the board.
 
@@ -179,7 +174,7 @@ The 10 following hypothesis tests were conducted:
 ------------------------------------------
 
 **We actually fail to reject the null
-hyothesis when comparing Staten Island and Queens mean rental prices because the P-value doesn't meet the threshold of 0.05**
+hypothesis when comparing Staten Island and Queens mean rental prices because the P-value doesn't meet the threshold of 0.05**
 
 ![statenvqns](./images/plots/statenvsqnsupdated.png)
 
@@ -192,7 +187,7 @@ hyothesis when comparing Staten Island and Queens mean rental prices because the
 
 Owners who are interested in potentially listing their property might want to know which borough is more likely to get a review.
 
-I created an additional collumn called `has_review` that has a value of 0 if `numer_of_reviews` for a listing is 0 and 1 if there are any reviews at all.
+I created an additional column called `has_review` that has a value of 0 if `numer_of_reviews` for a listing is 0 and 1 if there are any reviews at all.
 
 I then performed Bayesian testing using 100,000 simulations using the Beta Distribution for each borough. This is what I found:
 
