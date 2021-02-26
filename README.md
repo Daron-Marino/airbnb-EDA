@@ -207,6 +207,14 @@ Let's see what the difference in `has_review` looks like when plotting the PDFs 
 
 ![hasreviewbetasimulation](./images/plots/hasreviewcorrectcolors.png)
 
+------------------------------------------
+
+# Future Considerations
+
+* How the listing description, `name`, interacts with price, number of reviews, and availability.
+* How room type interacts with price, number of reviews, and availability.
+* Differences in minimum price (`price` * `minimum_nights`) between boroughs.
+
 # Thanks for looking :statue_of_liberty:
 
 ![homealone2gif](./images/plots/ratsubway.gif)
