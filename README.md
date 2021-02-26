@@ -216,6 +216,6 @@ Let's see what the difference in `has_review` looks like when plotting the PDFs 
 
 ![hasreviewbetasimulation](./images/plots/hasreviewmostrecent.png)
 
-# Thanks for looking `:statue_of_liberty:`
+# Thanks for looking :statue_of_liberty:
 
 ![homealone2gif](./images/plots/ratsubway.gif)
