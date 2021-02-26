@@ -171,7 +171,7 @@ The 10 following hypothesis tests were conducted:
 | The mean rental price in the Bronx is not significantly different than the mean rental price in Manhattan   	| The mean rental price in the Bronx is significantly different than the mean rental price in Manhattan  	|
 | The mean rental price in Staten Island is not significantly different than the mean rental price in Queens  	| The mean rental price in Staten Island is significantly different than the mean rental price in Queens  	|
 
-![statenvqns](./images/plots/allboroughhypothesistesting.png)
+![statenvqns](./images/plots/hypothesisnewfigsize.png)
 
 
 ### We can reject the Null Hypothesis in 9/10 of the tests because the P-value fell far below our alpha of 0.05
