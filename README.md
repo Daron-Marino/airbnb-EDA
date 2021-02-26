@@ -186,9 +186,6 @@ hyothesis when comparing Staten Island and Queens mean rental prices because the
 * The statistic is: 0.1879669104597021
 * The P-value is: 0.8510440821111774
 
-**We actually fail to reject the null
-hyothesis here because the P-value doesn't meet the threshold of 0.05**
-
 ------------------------------------------
 
 ## Bayes Testing on "Has Review"
