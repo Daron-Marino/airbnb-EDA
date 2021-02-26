@@ -122,6 +122,8 @@ Let's see what the distribution of prices looks like without outliers...
 
 ![price dist no outliers](./images/plots/pricedistnooutliers.png)
 
+![price ecdf](./images/plots/priceecdf.png)
+
 MUCH BETTER
 
 Below we can see the distribution of rental prices across each borough.
@@ -207,6 +209,8 @@ Let's see what the difference in `has_review` looks like when plotting the PDFs 
 
 ![hasreviewbetasimulation](./images/plots/hasreviewcorrectcolors.png)
 
+![price ecdf](./images/plots/reviewsecdf.png)
+
 ------------------------------------------
 
 # Future Considerations
@@ -218,3 +222,5 @@ Let's see what the difference in `has_review` looks like when plotting the PDFs 
 # Thanks for looking :statue_of_liberty:
 
 ![homealone2gif](./images/plots/ratsubway.gif)
+
+
