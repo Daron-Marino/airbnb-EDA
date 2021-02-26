@@ -135,8 +135,8 @@ I decided to take a closer look at the differences in mean price across each bor
 
 Earlier, it didn't look like the prices were normally distributed, but let's confirm that mathematically by testing for normality:
 
-H0: Price values are normally distributed
-H1: Price values are not normally distributed
+* H0: Price values are normally distributed
+* HA: Price values are not normally distributed
 
 - I'm establishing an alpha of 0.05, if the p-value is above the alpha, we fail to reject the null hypothesis. If below, we reject the null hypothesis. 
 
@@ -154,7 +154,7 @@ Because of the Central Limit Theorem, we can still do hypothesis testing under t
 
 The 10 following hypothesis tests were conducted:
 
-| H0  	|   H1	|
+| H0  	|   HA	|
 |---	|---	|
 | The mean rental price in The Bronx is not significantly different than the mean rental price in Brooklyn   	| The mean rental price in The Bronx is significantly different than the mean rental price in Brooklyn  	|
 | The mean rental price in Brooklyn is not significantly different than the mean rental price in Manhattan  	| The mean rental price in Brooklyn is significantly different than the mean rental price in Manhattan   	|
