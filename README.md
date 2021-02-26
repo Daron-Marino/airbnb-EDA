@@ -33,19 +33,15 @@ _______________________________________
 
 Let's take a look at the distribution of prices across all boroughs.
 
-![dist of prices](./images/plots/rentalpricedistupdated.png)
+![dist of prices](./images/plots/pricedistlogfalse.png)
 
 A few noteworthy things at a first glance:
 * There appears to be pricing outliers that are positively skewing the distribution
 * The pricing does not appear to be normally distributed.
 
--------------------------------------------
+## Let's see what the distribution looks like on a log scale:
 
-Because many listings have a minimum number of required nights > 1, it may be worth look at the distribution of `minimum cost`
-
-![minimum cost](./images/plots/mincostupdated.png)
-
-Again, the distribution looks positively skewed.
+![dist of prices](./images/plots/pricedistlogtrue.png)
 
 -------------------------------------------
 
@@ -122,6 +118,9 @@ I decided to remove the outliers by calculating the interquartile range (IQR),Q3
 Let's see what the distribution of prices looks like without outliers...
 
 ![violin no outliers](./images/plots/violinnooutliersupdated.png)
+
+
+![price dist no outliers](./images/plots/pricedistnooutliers.png)
 
 MUCH BETTER
 
