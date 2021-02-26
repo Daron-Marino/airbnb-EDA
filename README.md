@@ -211,7 +211,7 @@ I then performed Bayesian testing using 100,000 simulations using the Beta Distr
 
 Let's see what the difference in `has_review` looks like when plotting the PDFs of each borough's Beta Distribution:
 
-![hasreviewbetasimulation](./images/plots/hasreviewmostrecent.png)
+![hasreviewbetasimulation](./images/plots/hasreviewcorrectcolors.png)
 
 # Thanks for looking :statue_of_liberty:
 
